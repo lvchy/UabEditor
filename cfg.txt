@@ -20,20 +20,6 @@
             "loadpath": "Textures"
         },
         {
-            "name": "anicontroller",
-            "assetpath": "{ResourcesRoot}/High/AniController",
-            "extensions": ".controller",
-            "loadpath": "High/AniController",
-            "uabcount": -1
-        },
-        {
-            "name": "avatar",
-            "assetpath": "{ResourcesRoot}/High/Avatar",
-            "extensions": ".prefab",
-            "loadpath": "High/Avatar",
-            "uabcount": -1
-        },
-        {
             "name": "battlepos",
             "assetpath": "{ResourcesRoot}/High/BattlePos",
             "extensions": ".prefab",
@@ -2312,6 +2298,716 @@
             "assetpath": "Assets/Arts/heros/HauntedElf",
             "extensions": ".*",
             "loadpath": "Assets/Arts/heros/HauntedElf",
+            "resourceasset": true
+        },
+        {
+            "name": "avatarabbott",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Abbott",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Abbott"
+        },
+        {
+            "name": "avataraglonbarton",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/aglonbarton",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/aglonbarton"
+        },
+        {
+            "name": "avataragzul",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Agzul",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Agzul"
+        },
+        {
+            "name": "avatarandre",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Andre",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Andre"
+        },
+        {
+            "name": "avatarangry_treant",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Angry_Treant",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Angry_Treant"
+        },
+        {
+            "name": "avataranna",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Anna",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Anna"
+        },
+        {
+            "name": "avatarantinua",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Antinua",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Antinua"
+        },
+        {
+            "name": "avatarbalberith",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Balberith",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Balberith"
+        },
+        {
+            "name": "avatarbanker",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/banker",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/banker"
+        },
+        {
+            "name": "avatarbard",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Bard",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Bard"
+        },
+        {
+            "name": "avatarbilton",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Bilton",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Bilton"
+        },
+        {
+            "name": "avatarbilton_1",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Bilton_1",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Bilton_1"
+        },
+        {
+            "name": "avatarblackowl",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/BlackOwl",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/BlackOwl"
+        },
+        {
+            "name": "avatarbonebreaker",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Bonebreaker",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Bonebreaker"
+        },
+        {
+            "name": "avatarborden_asheton",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Borden_Asheton",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Borden_Asheton"
+        },
+        {
+            "name": "avatarbrand_forgeguard",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Brand_Forgeguard",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Brand_Forgeguard"
+        },
+        {
+            "name": "avatarbruszakk_thunderhand",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Bruszakk_Thunderhand",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Bruszakk_Thunderhand"
+        },
+        {
+            "name": "avatarciara",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Ciara",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Ciara"
+        },
+        {
+            "name": "avatarcrossbowman",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Crossbowman",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Crossbowman"
+        },
+        {
+            "name": "avatarcultist",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Cultist",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Cultist"
+        },
+        {
+            "name": "avatardamien",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Damien",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Damien"
+        },
+        {
+            "name": "avatardark_preist",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Dark_preist",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Dark_preist"
+        },
+        {
+            "name": "avatardesert_orc_brute",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Desert_Orc_Brute",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Desert_Orc_Brute"
+        },
+        {
+            "name": "avatardesert_orc_brute_1",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Desert_Orc_Brute_1",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Desert_Orc_Brute_1"
+        },
+        {
+            "name": "avatardesert_orc_crusher",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Desert_Orc_Crusher",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Desert_Orc_Crusher"
+        },
+        {
+            "name": "avatardesert_orc_crusher_1",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Desert_Orc_Crusher_1",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Desert_Orc_Crusher_1"
+        },
+        {
+            "name": "avatardwarfwarrior",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/DwarfWarrior",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/DwarfWarrior"
+        },
+        {
+            "name": "avatarearendil",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Earendil",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Earendil"
+        },
+        {
+            "name": "avatarelemental_mage",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Elemental_mage",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Elemental_mage"
+        },
+        {
+            "name": "avatarelemental_mage_1",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Elemental_mage_1",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Elemental_mage_1"
+        },
+        {
+            "name": "avatarelemental_mage_2",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Elemental_mage_2",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Elemental_mage_2"
+        },
+        {
+            "name": "avatarelemental_mage_3",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Elemental_mage_3",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Elemental_mage_3"
+        },
+        {
+            "name": "avatarelfarcher",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/ElfArcher",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/ElfArcher"
+        },
+        {
+            "name": "avatarelfblademaster",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/ElfBlademaster",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/ElfBlademaster"
+        },
+        {
+            "name": "avatarelfdruid",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/ElfDruid",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/ElfDruid"
+        },
+        {
+            "name": "avatarelson",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/elson",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/elson"
+        },
+        {
+            "name": "avatarempire_executor",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Empire_Executor",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Empire_Executor"
+        },
+        {
+            "name": "avataresrena",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/esrena",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/esrena"
+        },
+        {
+            "name": "avatarevelyn",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/evelyn",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/evelyn"
+        },
+        {
+            "name": "avatarfafnar",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Fafnar",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Fafnar"
+        },
+        {
+            "name": "avatarfemaledwarf",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/FemaleDwarf",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/FemaleDwarf"
+        },
+        {
+            "name": "avatarfireimp",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/FireImp",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/FireImp"
+        },
+        {
+            "name": "avatarfreya",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Freya",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Freya"
+        },
+        {
+            "name": "avatarfuryofthestorm",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/FuryoftheStorm",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/FuryoftheStorm"
+        },
+        {
+            "name": "avatargangelo",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Gangelo",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Gangelo"
+        },
+        {
+            "name": "avatargoblin_archer",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Goblin_Archer",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Goblin_Archer"
+        },
+        {
+            "name": "avatargoblin_archer_1",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Goblin_Archer_1",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Goblin_Archer_1"
+        },
+        {
+            "name": "avatargoblin_fighter",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Goblin_Fighter",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Goblin_Fighter"
+        },
+        {
+            "name": "avatargoblin_fighter_1",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Goblin_Fighter_1",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Goblin_Fighter_1"
+        },
+        {
+            "name": "avatargubegwalord",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/GubegWalord",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/GubegWalord"
+        },
+        {
+            "name": "avatarhakrinstonefist",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/HakrinStonefist",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/HakrinStonefist"
+        },
+        {
+            "name": "avatarharold",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Harold",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Harold"
+        },
+        {
+            "name": "avatarharry_blackhorn",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/harry_blackhorn",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/harry_blackhorn"
+        },
+        {
+            "name": "avatarhasselmolten",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/HasselMolten",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/HasselMolten"
+        },
+        {
+            "name": "avatarhaunted_man",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Haunted_man",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Haunted_man"
+        },
+        {
+            "name": "avatarhaunted_woman",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Haunted_woman",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Haunted_woman"
+        },
+        {
+            "name": "avatarhazell",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Hazell",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Hazell"
+        },
+        {
+            "name": "avatarhelmar",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Helmar",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Helmar"
+        },
+        {
+            "name": "avatarhorace",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Horace",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Horace"
+        },
+        {
+            "name": "avatarhorace_1",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Horace_1",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Horace_1"
+        },
+        {
+            "name": "avatarhorace_2",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Horace_2",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Horace_2"
+        },
+        {
+            "name": "avatarhugh_humphrys",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Hugh_Humphrys",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Hugh_Humphrys"
+        },
+        {
+            "name": "avatarian",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Ian",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Ian"
+        },
+        {
+            "name": "avatarinfected_dwarf",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Infected_Dwarf",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Infected_Dwarf"
+        },
+        {
+            "name": "avatarjoth",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Joth",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Joth"
+        },
+        {
+            "name": "avatarkane",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Kane",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Kane"
+        },
+        {
+            "name": "avatarkane_light",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Kane_Light",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Kane_Light"
+        },
+        {
+            "name": "avatarkangna",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/kangna",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/kangna"
+        },
+        {
+            "name": "avatarkyle_brien",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Kyle_Brien",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Kyle_Brien"
+        },
+        {
+            "name": "avatarlizardman_destroyer",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Lizardman_Destroyer",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Lizardman_Destroyer"
+        },
+        {
+            "name": "avatarlordrec",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Lordrec",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Lordrec"
+        },
+        {
+            "name": "avatarlydia",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/lydia",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/lydia"
+        },
+        {
+            "name": "avatarmage_apprentice",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Mage_Apprentice",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Mage_Apprentice"
+        },
+        {
+            "name": "avatarmarian",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Marian",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Marian"
+        },
+        {
+            "name": "avatarmelizza_malem",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Melizza_Malem",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Melizza_Malem"
+        },
+        {
+            "name": "avatarmytheasia_sagesong",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Mytheasia_Sagesong",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Mytheasia_Sagesong"
+        },
+        {
+            "name": "avatarnathalia_chatham",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Nathalia_Chatham",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Nathalia_Chatham"
+        },
+        {
+            "name": "avatarnicklaus_dark",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Nicklaus_dark",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Nicklaus_dark"
+        },
+        {
+            "name": "avatarniklaus",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Niklaus",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Niklaus"
+        },
+        {
+            "name": "avatarnoblevillain",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/NobleVillain",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/NobleVillain"
+        },
+        {
+            "name": "avatarorakh",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Orakh",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Orakh"
+        },
+        {
+            "name": "avatarpank",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/pank",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/pank"
+        },
+        {
+            "name": "avatarpeasantmob",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/PeasantMob",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/PeasantMob"
+        },
+        {
+            "name": "avatarpossessed_elf",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Possessed_Elf",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Possessed_Elf"
+        },
+        {
+            "name": "avatarpossessed_human",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Possessed_Human",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Possessed_Human"
+        },
+        {
+            "name": "avatarqueen_of_tide",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Queen_of_Tide",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Queen_of_Tide"
+        },
+        {
+            "name": "avatarradi_defiler",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Radi_Defiler",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Radi_Defiler"
+        },
+        {
+            "name": "avatarreaper",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Reaper",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Reaper"
+        },
+        {
+            "name": "avatarrickard",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/rickard",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/rickard"
+        },
+        {
+            "name": "avatarroots_treant",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Roots_Treant",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Roots_Treant"
+        },
+        {
+            "name": "avatarrotten_treant",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Rotten_Treant",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Rotten_Treant"
+        },
+        {
+            "name": "avatarroyal_guard",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Royal_Guard",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Royal_Guard"
+        },
+        {
+            "name": "avatarsadgolem",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/SadGolem",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/SadGolem"
+        },
+        {
+            "name": "avatarsantis",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Santis",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Santis"
+        },
+        {
+            "name": "avatarsentinel",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Sentinel",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Sentinel"
+        },
+        {
+            "name": "avatarsentinel_axe",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Sentinel_axe",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Sentinel_axe"
+        },
+        {
+            "name": "avatarsentinel_lancer",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Sentinel_lancer",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Sentinel_lancer"
+        },
+        {
+            "name": "avatarsentinel_sword",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Sentinel_sword",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Sentinel_sword"
+        },
+        {
+            "name": "avatarstalker",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/stalker",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/stalker"
+        },
+        {
+            "name": "avatarstonegolem",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/StoneGolem",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/StoneGolem"
+        },
+        {
+            "name": "avatartanaruk",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Tanaruk",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Tanaruk"
+        },
+        {
+            "name": "avatartia_chatham",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Tia_Chatham",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Tia_Chatham"
+        },
+        {
+            "name": "avatartomas",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Tomas",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Tomas"
+        },
+        {
+            "name": "avatarurzag",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Urzag",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Urzag"
+        },
+        {
+            "name": "avatarurzag_light",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Urzag_light",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Urzag_light"
+        },
+        {
+            "name": "avatarvaleria",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Valeria",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Valeria"
+        },
+        {
+            "name": "avatarvance",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Vance",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Vance"
+        },
+        {
+            "name": "avatarvindicator",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Vindicator",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Vindicator"
+        },
+        {
+            "name": "avatarvirgil",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Virgil",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Virgil"
+        },
+        {
+            "name": "avatarwaterelementminion",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/WaterElementMinion",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/WaterElementMinion"
+        },
+        {
+            "name": "avatarwilliam",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/William",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/William"
+        },
+        {
+            "name": "avataryolanda",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Yolanda",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Yolanda"
+        },
+        {
+            "name": "avataryolanda_light",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Yolanda_light",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Yolanda_light"
+        },
+        {
+            "name": "avatarzachary",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Zachary",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Zachary"
+        },
+        {
+            "name": "avatarztlin",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/ztlin",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/ztlin"
+        },
+        {
+            "name": "avatarzulquky",
+            "assetpath": "Assets/ResourcesAB/High/Avatar/Zulquky",
+            "extensions": ".*",
+            "loadpath": "High/Avatar/Zulquky"
+        },
+        {
+            "name": "herosbartender",
+            "assetpath": "Assets/Arts/heros/bartender",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/bartender",
+            "resourceasset": true
+        },
+        {
+            "name": "heroscece",
+            "assetpath": "Assets/Arts/heros/Cece",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Cece",
             "resourceasset": true
         }
     ]

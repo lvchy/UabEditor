@@ -116,10 +116,10 @@ public class UabBuild
                 remove.Add(cbuild);
             }
         }
-        foreach (var rem in remove)
-        {
-            AssetDatabase.RemoveAssetBundleName(rem, true);
-        }
+        //foreach (var rem in remove)
+        //{
+        //    AssetDatabase.RemoveAssetBundleName(rem, true);
+        //}
 
 
 

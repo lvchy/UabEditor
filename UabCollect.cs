@@ -128,10 +128,10 @@ public class UabCollect {
             abbuild.assetNames = new string[] { files[i] };
 
 
-            if (AssetImporter.GetAtPath(files[i]).assetBundleName != abbuild.assetBundleName)
-                AssetImporter.GetAtPath(files[i]).assetBundleName = abbuild.assetBundleName;            
-            if (!UabBuild.collectAssetBundleNames.Contains(abbuild.assetBundleName))
-                UabBuild.collectAssetBundleNames.Add(abbuild.assetBundleName);
+            //if (AssetImporter.GetAtPath(files[i]).assetBundleName != abbuild.assetBundleName)
+            //    AssetImporter.GetAtPath(files[i]).assetBundleName = abbuild.assetBundleName;            
+            //if (!UabBuild.collectAssetBundleNames.Contains(abbuild.assetBundleName))
+            //    UabBuild.collectAssetBundleNames.Add(abbuild.assetBundleName);
 
             abbuilds.Add(abbuild);
         }
@@ -167,10 +167,10 @@ public class UabCollect {
             abbuild.assetNames = kvp.Value.ToArray();
             for (int i = 0;i<abbuild.assetNames.Length;i++)
             {
-                if(AssetImporter.GetAtPath(abbuild.assetNames[i]).assetBundleName != abbuild.assetBundleName)
-                    AssetImporter.GetAtPath(abbuild.assetNames[i]).assetBundleName = abbuild.assetBundleName;
-                if(!UabBuild.collectAssetBundleNames.Contains(abbuild.assetBundleName))
-                    UabBuild.collectAssetBundleNames.Add(abbuild.assetBundleName);
+                //if(AssetImporter.GetAtPath(abbuild.assetNames[i]).assetBundleName != abbuild.assetBundleName)
+                //    AssetImporter.GetAtPath(abbuild.assetNames[i]).assetBundleName = abbuild.assetBundleName;
+                //if(!UabBuild.collectAssetBundleNames.Contains(abbuild.assetBundleName))
+                //    UabBuild.collectAssetBundleNames.Add(abbuild.assetBundleName);
             }
             abbuilds.Add(abbuild);
         }
