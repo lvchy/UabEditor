@@ -1,0 +1,2318 @@
+{
+    "G": [
+        {
+            "name": "builtin",
+            "assetpath": "{ResourcesRoot}/Builtin",
+            "extensions": "",
+            "loadpath": "Builtin",
+            "builtin": true
+        },
+        {
+            "name": "loadanimation",
+            "assetpath": "{ResourcesRoot}/Animation",
+            "extensions": ".anim",
+            "loadpath": "Animation"
+        },
+        {
+            "name": "texture",
+            "assetpath": "{ResourcesRoot}/Textures",
+            "extensions": ".png",
+            "loadpath": "Textures"
+        },
+        {
+            "name": "anicontroller",
+            "assetpath": "{ResourcesRoot}/High/AniController",
+            "extensions": ".controller",
+            "loadpath": "High/AniController",
+            "uabcount": -1
+        },
+        {
+            "name": "avatar",
+            "assetpath": "{ResourcesRoot}/High/Avatar",
+            "extensions": ".prefab",
+            "loadpath": "High/Avatar",
+            "uabcount": -1
+        },
+        {
+            "name": "battlepos",
+            "assetpath": "{ResourcesRoot}/High/BattlePos",
+            "extensions": ".prefab",
+            "loadpath": "High/BattlePos"
+        },
+        {
+            "name": "effect",
+            "assetpath": "{ResourcesRoot}/Effects",
+            "extensions": ".prefab",
+            "loadpath": "Effects"
+        },
+        {
+            "name": "higheffect",
+            "assetpath": "{ResourcesRoot}/High/Effects",
+            "extensions": ".prefab",
+            "loadpath": "High/Effects",
+            "uabcount": 10
+        },
+        {
+            "name": "worldmap",
+            "assetpath": "{ResourcesRoot}/Model/WorldMap",
+            "extensions": ".prefab",
+            "loadpath": "model/worldmap"
+        },
+        {
+            "name": "shader",
+            "assetpath": "{ResourcesRoot}/Shaders",
+            "extensions": ".shader,.cginc",
+            "loadpath": "shaders"
+        },
+        {
+            "name": "particleanictrl",
+            "assetpath": "{ResourcesRoot}/ParticleRes",
+            "extensions": ".controller",
+            "loadpath": "ParticleRes/",
+            "uabcount": 3,
+            "resourceasset": true
+        },
+        {
+            "name": "particleanimation",
+            "assetpath": "{ResourcesRoot}/ParticleRes",
+            "extensions": ".anim",
+            "loadpath": "ParticleRes/",
+            "uabcount": 3,
+            "resourceasset": true
+        },
+        {
+            "name": "particlemat",
+            "assetpath": "{ResourcesRoot}/ParticleRes",
+            "extensions": ".mat",
+            "loadpath": "ParticleRes/",
+            "uabcount": 5,
+            "resourceasset": true
+        },
+        {
+            "name": "particlemodel",
+            "assetpath": "{ResourcesRoot}/ParticleRes",
+            "extensions": ".FBX,.fbx",
+            "loadpath": "ParticleRes/",
+            "uabcount": 5,
+            "resourceasset": true
+        },
+        {
+            "name": "particletex",
+            "assetpath": "{ResourcesRoot}/ParticleRes",
+            "extensions": ".png,.tga,.TGA,.jpg,.bmp,.PNG,.psd",
+            "loadpath": "ParticleRes/",
+            "uabcount": 5,
+            "resourceasset": true
+        },
+        {
+            "name": "highmat",
+            "assetpath": "{ResourcesRoot}/High/Mat",
+            "extensions": ".mat",
+            "loadpath": "High/Mat"
+        },
+        {
+            "name": "scene",
+            "assetpath": "Assets/Scenes",
+            "extensions": ".unity",
+            "loadpath": "scene",
+            "uabcount": -1
+        },
+        {
+            "name": "timeline",
+            "assetpath": "{ResourcesRoot}/Timeline",
+            "extensions": ".prefab",
+            "loadpath": "timeline"
+        },
+        {
+            "name": "mp3",
+            "assetpath": "{ResourcesRoot}/Audio",
+            "extensions": ".mp3,.wav",
+            "loadpath": "audio",
+            "uabcount": 10
+        },
+        {
+            "name": "video",
+            "assetpath": "{ResourcesRoot}/Video",
+            "extensions": ".mp4",
+            "loadpath": "video",
+            "uabcount": -1,
+            "isasset": false,
+            "isbinary": true,
+            "noencrypt": true
+        },
+        {
+            "name": "lua",
+            "assetpath": "Lua",
+            "extensions": ".lua",
+            "loadpath": "lua",
+            "builtin": true,
+            "isasset": false,
+            "isbinary": true,
+            "usetmp": true
+        },
+        {
+            "name": "iconarenaicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/ArenaIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/ArenaIcon"
+        },
+        {
+            "name": "iconendlesstrialicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/EndlessTrialIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/EndlessTrialIcon"
+        },
+        {
+            "name": "iconasseticon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/AssetIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/AssetIcon"
+        },
+        {
+            "name": "iconbosschest",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/BossChest",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/BossChest"
+        },
+        {
+            "name": "iconbufficon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/BuffIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/BuffIcon"
+        },
+        {
+            "name": "iconcommonicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/CommonIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/CommonIcon"
+        },
+        {
+            "name": "icondungeonicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/DungeonIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/DungeonIcon"
+        },
+        {
+            "name": "iconelementicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/ElementIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/ElementIcon"
+        },
+        {
+            "name": "iconequipmenticon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/EquipmentIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/EquipmentIcon"
+        },
+        {
+            "name": "iconfactionicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/FactionIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/FactionIcon"
+        },
+        {
+            "name": "iconframeicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/FrameIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/FrameIcon"
+        },
+        {
+            "name": "iconguildicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/GuildIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/GuildIcon"
+        },
+        {
+            "name": "iconherocard",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/HeroCard",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/HeroCard"
+        },
+        {
+            "name": "iconheroicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/HeroIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/HeroIcon"
+        },
+        {
+            "name": "iconitemicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/ItemIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/ItemIcon"
+        },
+        {
+            "name": "iconmasteryicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/MasteryIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/MasteryIcon"
+        },
+        {
+            "name": "iconseticon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/SetIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/SetIcon"
+        },
+        {
+            "name": "iconskillicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/SkillIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/SkillIcon"
+        },
+        {
+            "name": "iconstaticon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/StatIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/StatIcon"
+        },
+        {
+            "name": "iconstoremerchant",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/StoreMerchant",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/StoreMerchant"
+        },
+        {
+            "name": "icontaskthemeicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/TaskThemeIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/TaskThemeIcon"
+        },
+        {
+            "name": "iconworldmapicon",
+            "assetpath": "Assets/ResourcesAB/UI/Icon/WorldMapIcon",
+            "extensions": ".png,.asset",
+            "loadpath": "UI/Icon/WorldMapIcon"
+        },
+        {
+            "name": "texturesbattlepass",
+            "assetpath": "Assets/ResourcesAB/UI/Textures/BattlePass",
+            "extensions": ".png",
+            "loadpath": "UI/Textures/BattlePass"
+        },
+        {
+            "name": "texturesdungeon",
+            "assetpath": "Assets/ResourcesAB/UI/Textures/Dungeon",
+            "extensions": ".png",
+            "loadpath": "UI/Textures/Dungeon"
+        },
+        {
+            "name": "texturesendlesstrial",
+            "assetpath": "Assets/ResourcesAB/UI/Textures/EndlessTrial",
+            "extensions": ".png",
+            "loadpath": "UI/Textures/EndlessTrial"
+        },
+        {
+            "name": "texturessummon",
+            "assetpath": "Assets/ResourcesAB/UI/Textures/Summon",
+            "extensions": ".png",
+            "loadpath": "UI/Textures/Summon"
+        },
+        {
+            "name": "uiatlasachievement",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Achievement",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Achievement",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasannouncement",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Announcement",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Announcement",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasarena",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Arena",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Arena",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasbattle",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Battle",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Battle",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasbattlepass",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/BattlePass",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/BattlePass",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasbattleresult",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/BattleResult",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/BattleResult",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlaschapterunlocked",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/ChapterUnlocked",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/ChapterUnlocked",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlaschat",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Chat",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Chat",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlascommon",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Common",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Common",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasdetailattributes",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/DetailAttributes",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/DetailAttributes",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasdungeon",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Dungeon",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Dungeon",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlaselementrestraint",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/ElementRestraint",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/ElementRestraint",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasendlesstrial",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/EndlessTrial",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/EndlessTrial",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasequipenhance",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/EquipEnhance",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/EquipEnhance",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasequipmanager",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/EquipManager",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/EquipManager",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasequiptip",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/EquipTip",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/EquipTip",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasexchangeequip",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/ExchangeEquip",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/ExchangeEquip",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasfightroom",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/FightRoom",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/FightRoom",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasfriend",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Friend",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Friend",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasguild",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Guild",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Guild",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasherobook",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/HeroBook",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/HeroBook",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasherobookfaction",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/HeroBookFaction",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/HeroBookFaction",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasherobookshow",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/HeroBookShow",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/HeroBookShow",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasherodismission",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/HeroDismission",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/HeroDismission",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasicon",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Icon",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Icon",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasitemtip",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/ItemTip",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/ItemTip",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasitemtipusepop",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/ItemTipUsePop",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/ItemTipUsePop",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasloading",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Loading",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Loading",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasmail",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Mail",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Mail",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasmain",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Main",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Main",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasmall",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Mall",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Mall",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasmallbuy",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/MallBuy",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/MallBuy",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasmission",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Mission",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Mission",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasnoviceguide",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/NoviceGuide",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/NoviceGuide",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlaspackage",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Package",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Package",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasplayercard",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/PlayerCard",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/PlayerCard",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasplayerchangename",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/PlayerChangeName",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/PlayerChangeName",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasplayerheadicon",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/PlayerHeadIcon",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/PlayerHeadIcon",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasplayerherolist",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/PlayerHeroList",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/PlayerHeroList",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasplayerinfo",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/PlayerInfo",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/PlayerInfo",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasplayerlevelup",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/PlayerLevelUp",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/PlayerLevelUp",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasplayerportrait",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/PlayerPortrait",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/PlayerPortrait",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasreward",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Reward",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Reward",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasroleabilityout",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/RoleAbilityOut",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/RoleAbilityOut",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasroledisplay",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/RoleDisplay",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/RoleDisplay",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasroleelevate",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/RoleElevate",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/RoleElevate",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasroleelevateout",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/RoleElevateOut",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/RoleElevateOut",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasrolemastery",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/RoleMastery",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/RoleMastery",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasrolepromotestarout",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/RolePromoteStarOut",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/RolePromoteStarOut",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasroleshow",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/RoleShow",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/RoleShow",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasseasontower",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/SeasonTower",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/SeasonTower",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlassetting",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Setting",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Setting",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlassignindaily",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/SignInDaily",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/SignInDaily",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlassigninseven",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/SignInSeven",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/SignInSeven",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasstore",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Store",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Store",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasstory",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Story",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Story",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlassummon",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Summon",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Summon",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlassurvey",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Survey",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Survey",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasteammatch",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/TeamMatch",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/TeamMatch",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasunlockcallskill",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/UnLockCallSkill",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/UnLockCallSkill",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasworldmap",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/WorldMap",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/WorldMap",
+            "resourceasset": true
+        },
+        {
+            "name": "uiatlasworldmapprocessdetail",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/WorldMapProcessDetail",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/WorldMapProcessDetail",
+            "resourceasset": true
+        },
+        {
+            "name": "texturesnpc",
+            "assetpath": "Assets/ResourcesAB/UI/Textures/NPC",
+            "extensions": ".png",
+            "loadpath": "UI/Textures/NPC"
+        },
+        {
+            "name": "uiachievement",
+            "assetpath": "Assets/ResourcesAB/UI/Achievement",
+            "extensions": ".*",
+            "loadpath": "UI/Achievement"
+        },
+        {
+            "name": "uiannouncement",
+            "assetpath": "Assets/ResourcesAB/UI/Announcement",
+            "extensions": ".*",
+            "loadpath": "UI/Announcement"
+        },
+        {
+            "name": "uiarena",
+            "assetpath": "Assets/ResourcesAB/UI/Arena",
+            "extensions": ".*",
+            "loadpath": "UI/Arena"
+        },
+        {
+            "name": "uibattle",
+            "assetpath": "Assets/ResourcesAB/UI/Battle",
+            "extensions": ".*",
+            "loadpath": "UI/Battle"
+        },
+        {
+            "name": "uibattlepass",
+            "assetpath": "Assets/ResourcesAB/UI/BattlePass",
+            "extensions": ".*",
+            "loadpath": "UI/BattlePass"
+        },
+        {
+            "name": "uibattleresult",
+            "assetpath": "Assets/ResourcesAB/UI/BattleResult",
+            "extensions": ".*",
+            "loadpath": "UI/BattleResult"
+        },
+        {
+            "name": "uichapterunlocked",
+            "assetpath": "Assets/ResourcesAB/UI/ChapterUnlocked",
+            "extensions": ".*",
+            "loadpath": "UI/ChapterUnlocked"
+        },
+        {
+            "name": "uichat",
+            "assetpath": "Assets/ResourcesAB/UI/Chat",
+            "extensions": ".*",
+            "loadpath": "UI/Chat"
+        },
+        {
+            "name": "uicommon",
+            "assetpath": "Assets/ResourcesAB/UI/Common",
+            "extensions": ".*",
+            "loadpath": "UI/Common"
+        },
+        {
+            "name": "uidebug",
+            "assetpath": "Assets/ResourcesAB/UI/Debug",
+            "extensions": ".*",
+            "loadpath": "UI/Debug"
+        },
+        {
+            "name": "uidetailattributes",
+            "assetpath": "Assets/ResourcesAB/UI/DetailAttributes",
+            "extensions": ".*",
+            "loadpath": "UI/DetailAttributes"
+        },
+        {
+            "name": "uidungeon",
+            "assetpath": "Assets/ResourcesAB/UI/Dungeon",
+            "extensions": ".*",
+            "loadpath": "UI/Dungeon"
+        },
+        {
+            "name": "uielementrestraint",
+            "assetpath": "Assets/ResourcesAB/UI/ElementRestraint",
+            "extensions": ".*",
+            "loadpath": "UI/ElementRestraint"
+        },
+        {
+            "name": "uiendlesstrial",
+            "assetpath": "Assets/ResourcesAB/UI/EndlessTrial",
+            "extensions": ".*",
+            "loadpath": "UI/EndlessTrial"
+        },
+        {
+            "name": "uiequipenhance",
+            "assetpath": "Assets/ResourcesAB/UI/EquipEnhance",
+            "extensions": ".*",
+            "loadpath": "UI/EquipEnhance"
+        },
+        {
+            "name": "uiequipmanager",
+            "assetpath": "Assets/ResourcesAB/UI/EquipManager",
+            "extensions": ".*",
+            "loadpath": "UI/EquipManager"
+        },
+        {
+            "name": "uiequiptip",
+            "assetpath": "Assets/ResourcesAB/UI/EquipTip",
+            "extensions": ".*",
+            "loadpath": "UI/EquipTip"
+        },
+        {
+            "name": "uiexchangeequip",
+            "assetpath": "Assets/ResourcesAB/UI/ExchangeEquip",
+            "extensions": ".*",
+            "loadpath": "UI/ExchangeEquip"
+        },
+        {
+            "name": "uifightroom",
+            "assetpath": "Assets/ResourcesAB/UI/FightRoom",
+            "extensions": ".*",
+            "loadpath": "UI/FightRoom"
+        },
+        {
+            "name": "uifont",
+            "assetpath": "Assets/ResourcesAB/UI/Font",
+            "extensions": ".*",
+            "loadpath": "UI/Font"
+        },
+        {
+            "name": "uifriend",
+            "assetpath": "Assets/ResourcesAB/UI/Friend",
+            "extensions": ".*",
+            "loadpath": "UI/Friend"
+        },
+        {
+            "name": "uiguild",
+            "assetpath": "Assets/ResourcesAB/UI/Guild",
+            "extensions": ".*",
+            "loadpath": "UI/Guild"
+        },
+        {
+            "name": "uiherobook",
+            "assetpath": "Assets/ResourcesAB/UI/HeroBook",
+            "extensions": ".*",
+            "loadpath": "UI/HeroBook"
+        },
+        {
+            "name": "uiherobookfaction",
+            "assetpath": "Assets/ResourcesAB/UI/HeroBookFaction",
+            "extensions": ".*",
+            "loadpath": "UI/HeroBookFaction"
+        },
+        {
+            "name": "uiherobookshow",
+            "assetpath": "Assets/ResourcesAB/UI/HeroBookShow",
+            "extensions": ".*",
+            "loadpath": "UI/HeroBookShow"
+        },
+        {
+            "name": "uiherodismission",
+            "assetpath": "Assets/ResourcesAB/UI/HeroDismission",
+            "extensions": ".*",
+            "loadpath": "UI/HeroDismission"
+        },
+        {
+            "name": "uiitemtip",
+            "assetpath": "Assets/ResourcesAB/UI/ItemTip",
+            "extensions": ".*",
+            "loadpath": "UI/ItemTip"
+        },
+        {
+            "name": "uiitemtipusepop",
+            "assetpath": "Assets/ResourcesAB/UI/ItemTipUsePop",
+            "extensions": ".*",
+            "loadpath": "UI/ItemTipUsePop"
+        },
+        {
+            "name": "uiloading",
+            "assetpath": "Assets/ResourcesAB/UI/Loading",
+            "extensions": ".*",
+            "loadpath": "UI/Loading"
+        },
+        {
+            "name": "uilogin",
+            "assetpath": "Assets/ResourcesAB/UI/Login",
+            "extensions": ".*",
+            "loadpath": "UI/Login"
+        },
+        {
+            "name": "uimail",
+            "assetpath": "Assets/ResourcesAB/UI/Mail",
+            "extensions": ".*",
+            "loadpath": "UI/Mail"
+        },
+        {
+            "name": "uimain",
+            "assetpath": "Assets/ResourcesAB/UI/Main",
+            "extensions": ".*",
+            "loadpath": "UI/Main"
+        },
+        {
+            "name": "uimall",
+            "assetpath": "Assets/ResourcesAB/UI/Mall",
+            "extensions": ".*",
+            "loadpath": "UI/Mall"
+        },
+        {
+            "name": "uimallbuy",
+            "assetpath": "Assets/ResourcesAB/UI/MallBuy",
+            "extensions": ".*",
+            "loadpath": "UI/MallBuy"
+        },
+        {
+            "name": "uimarquee",
+            "assetpath": "Assets/ResourcesAB/UI/Marquee",
+            "extensions": ".*",
+            "loadpath": "UI/Marquee"
+        },
+        {
+            "name": "uimaterial",
+            "assetpath": "Assets/ResourcesAB/UI/Material",
+            "extensions": ".*",
+            "loadpath": "UI/Material"
+        },
+        {
+            "name": "uimission",
+            "assetpath": "Assets/ResourcesAB/UI/Mission",
+            "extensions": ".*",
+            "loadpath": "UI/Mission"
+        },
+        {
+            "name": "uinoviceguide",
+            "assetpath": "Assets/ResourcesAB/UI/NoviceGuide",
+            "extensions": ".*",
+            "loadpath": "UI/NoviceGuide"
+        },
+        {
+            "name": "uipackage",
+            "assetpath": "Assets/ResourcesAB/UI/Package",
+            "extensions": ".*",
+            "loadpath": "UI/Package"
+        },
+        {
+            "name": "uiplayercard",
+            "assetpath": "Assets/ResourcesAB/UI/PlayerCard",
+            "extensions": ".*",
+            "loadpath": "UI/PlayerCard"
+        },
+        {
+            "name": "uiplayerchangename",
+            "assetpath": "Assets/ResourcesAB/UI/PlayerChangeName",
+            "extensions": ".*",
+            "loadpath": "UI/PlayerChangeName"
+        },
+        {
+            "name": "uiplayerheadicon",
+            "assetpath": "Assets/ResourcesAB/UI/PlayerHeadIcon",
+            "extensions": ".*",
+            "loadpath": "UI/PlayerHeadIcon"
+        },
+        {
+            "name": "uiplayerherolist",
+            "assetpath": "Assets/ResourcesAB/UI/PlayerHeroList",
+            "extensions": ".*",
+            "loadpath": "UI/PlayerHeroList"
+        },
+        {
+            "name": "uiplayerinfo",
+            "assetpath": "Assets/ResourcesAB/UI/PlayerInfo",
+            "extensions": ".*",
+            "loadpath": "UI/PlayerInfo"
+        },
+        {
+            "name": "uiplayerlevelup",
+            "assetpath": "Assets/ResourcesAB/UI/PlayerLevelUp",
+            "extensions": ".*",
+            "loadpath": "UI/PlayerLevelUp"
+        },
+        {
+            "name": "uiplayerportrait",
+            "assetpath": "Assets/ResourcesAB/UI/PlayerPortrait",
+            "extensions": ".*",
+            "loadpath": "UI/PlayerPortrait"
+        },
+        {
+            "name": "uireward",
+            "assetpath": "Assets/ResourcesAB/UI/Reward",
+            "extensions": ".*",
+            "loadpath": "UI/Reward"
+        },
+        {
+            "name": "uiroleabilityout",
+            "assetpath": "Assets/ResourcesAB/UI/RoleAbilityOut",
+            "extensions": ".*",
+            "loadpath": "UI/RoleAbilityOut"
+        },
+        {
+            "name": "uiroledisplay",
+            "assetpath": "Assets/ResourcesAB/UI/RoleDisplay",
+            "extensions": ".*",
+            "loadpath": "UI/RoleDisplay"
+        },
+        {
+            "name": "uiroleelevate",
+            "assetpath": "Assets/ResourcesAB/UI/RoleElevate",
+            "extensions": ".*",
+            "loadpath": "UI/RoleElevate"
+        },
+        {
+            "name": "uiroleelevateout",
+            "assetpath": "Assets/ResourcesAB/UI/RoleElevateOut",
+            "extensions": ".*",
+            "loadpath": "UI/RoleElevateOut"
+        },
+        {
+            "name": "uirolemastery",
+            "assetpath": "Assets/ResourcesAB/UI/RoleMastery",
+            "extensions": ".*",
+            "loadpath": "UI/RoleMastery"
+        },
+        {
+            "name": "uirolepromotestarout",
+            "assetpath": "Assets/ResourcesAB/UI/RolePromoteStarOut",
+            "extensions": ".*",
+            "loadpath": "UI/RolePromoteStarOut"
+        },
+        {
+            "name": "uiroleshow",
+            "assetpath": "Assets/ResourcesAB/UI/RoleShow",
+            "extensions": ".*",
+            "loadpath": "UI/RoleShow"
+        },
+        {
+            "name": "uiseasontower",
+            "assetpath": "Assets/ResourcesAB/UI/SeasonTower",
+            "extensions": ".*",
+            "loadpath": "UI/SeasonTower"
+        },
+        {
+            "name": "uisetting",
+            "assetpath": "Assets/ResourcesAB/UI/Setting",
+            "extensions": ".*",
+            "loadpath": "UI/Setting"
+        },
+        {
+            "name": "uisignindaily",
+            "assetpath": "Assets/ResourcesAB/UI/SignInDaily",
+            "extensions": ".*",
+            "loadpath": "UI/SignInDaily"
+        },
+        {
+            "name": "uisigninseven",
+            "assetpath": "Assets/ResourcesAB/UI/SignInSeven",
+            "extensions": ".*",
+            "loadpath": "UI/SignInSeven"
+        },
+        {
+            "name": "uistore",
+            "assetpath": "Assets/ResourcesAB/UI/Store",
+            "extensions": ".*",
+            "loadpath": "UI/Store"
+        },
+        {
+            "name": "uistory",
+            "assetpath": "Assets/ResourcesAB/UI/Story",
+            "extensions": ".*",
+            "loadpath": "UI/Story"
+        },
+        {
+            "name": "uisummon",
+            "assetpath": "Assets/ResourcesAB/UI/Summon",
+            "extensions": ".*",
+            "loadpath": "UI/Summon"
+        },
+        {
+            "name": "uisurvey",
+            "assetpath": "Assets/ResourcesAB/UI/Survey",
+            "extensions": ".*",
+            "loadpath": "UI/Survey"
+        },
+        {
+            "name": "uiteammatch",
+            "assetpath": "Assets/ResourcesAB/UI/TeamMatch",
+            "extensions": ".*",
+            "loadpath": "UI/TeamMatch"
+        },
+        {
+            "name": "uiunlockcallskill",
+            "assetpath": "Assets/ResourcesAB/UI/UnLockCallSkill",
+            "extensions": ".*",
+            "loadpath": "UI/UnLockCallSkill"
+        },
+        {
+            "name": "uiwaiting",
+            "assetpath": "Assets/ResourcesAB/UI/Waiting",
+            "extensions": ".*",
+            "loadpath": "UI/Waiting"
+        },
+        {
+            "name": "uiworldmap",
+            "assetpath": "Assets/ResourcesAB/UI/WorldMap",
+            "extensions": ".*",
+            "loadpath": "UI/WorldMap"
+        },
+        {
+            "name": "uiworldmapprocessdetail",
+            "assetpath": "Assets/ResourcesAB/UI/WorldMapProcessDetail",
+            "extensions": ".*",
+            "loadpath": "UI/WorldMapProcessDetail"
+        },
+        {
+            "name": "uiatlaslogin",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/Login",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/Login",
+            "resourceasset": true
+        },
+        {
+            "name": "herosabbott",
+            "assetpath": "Assets/Arts/heros/Abbott",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Abbott",
+            "resourceasset": true
+        },
+        {
+            "name": "herosaglonbarton",
+            "assetpath": "Assets/Arts/heros/aglonbarton",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/aglonbarton",
+            "resourceasset": true
+        },
+        {
+            "name": "herosagzul",
+            "assetpath": "Assets/Arts/heros/Agzul",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Agzul",
+            "resourceasset": true
+        },
+        {
+            "name": "herosandre",
+            "assetpath": "Assets/Arts/heros/Andre",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Andre",
+            "resourceasset": true
+        },
+        {
+            "name": "herosangrytreant",
+            "assetpath": "Assets/Arts/heros/AngryTreant",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/AngryTreant",
+            "resourceasset": true
+        },
+        {
+            "name": "herosangry_treant",
+            "assetpath": "Assets/Arts/heros/Angry_Treant",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Angry_Treant",
+            "resourceasset": true
+        },
+        {
+            "name": "herosanna",
+            "assetpath": "Assets/Arts/heros/Anna",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Anna",
+            "resourceasset": true
+        },
+        {
+            "name": "herosantinua",
+            "assetpath": "Assets/Arts/heros/Antinua",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Antinua",
+            "resourceasset": true
+        },
+        {
+            "name": "herosbalberith",
+            "assetpath": "Assets/Arts/heros/Balberith",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Balberith",
+            "resourceasset": true
+        },
+        {
+            "name": "herosbanker",
+            "assetpath": "Assets/Arts/heros/banker",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/banker",
+            "resourceasset": true
+        },
+        {
+            "name": "herosbard",
+            "assetpath": "Assets/Arts/heros/Bard",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Bard",
+            "resourceasset": true
+        },
+        {
+            "name": "herosberial",
+            "assetpath": "Assets/Arts/heros/Berial",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Berial",
+            "resourceasset": true
+        },
+        {
+            "name": "herosbilton",
+            "assetpath": "Assets/Arts/heros/Bilton",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Bilton",
+            "resourceasset": true
+        },
+        {
+            "name": "herosbilton1",
+            "assetpath": "Assets/Arts/heros/Bilton1",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Bilton1",
+            "resourceasset": true
+        },
+        {
+            "name": "herosblackowl",
+            "assetpath": "Assets/Arts/heros/BlackOwl",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/BlackOwl",
+            "resourceasset": true
+        },
+        {
+            "name": "herosbonebreaker",
+            "assetpath": "Assets/Arts/heros/Bonebreaker",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Bonebreaker",
+            "resourceasset": true
+        },
+        {
+            "name": "herosbordenasheton",
+            "assetpath": "Assets/Arts/heros/BordenAsheton",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/BordenAsheton",
+            "resourceasset": true
+        },
+        {
+            "name": "herosbrandforgeguard",
+            "assetpath": "Assets/Arts/heros/BrandForgeguard",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/BrandForgeguard",
+            "resourceasset": true
+        },
+        {
+            "name": "herosbruszakkthunderhand",
+            "assetpath": "Assets/Arts/heros/BruszakkThunderhand",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/BruszakkThunderhand",
+            "resourceasset": true
+        },
+        {
+            "name": "heroschouka",
+            "assetpath": "Assets/Arts/heros/ChouKa",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/ChouKa",
+            "resourceasset": true
+        },
+        {
+            "name": "herosciara",
+            "assetpath": "Assets/Arts/heros/Ciara",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Ciara",
+            "resourceasset": true
+        },
+        {
+            "name": "heroscleaver",
+            "assetpath": "Assets/Arts/heros/Cleaver",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Cleaver",
+            "resourceasset": true
+        },
+        {
+            "name": "heroscrossbowman",
+            "assetpath": "Assets/Arts/heros/Crossbowman",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Crossbowman",
+            "resourceasset": true
+        },
+        {
+            "name": "heroscultist",
+            "assetpath": "Assets/Arts/heros/Cultist",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Cultist",
+            "resourceasset": true
+        },
+        {
+            "name": "herosdamien",
+            "assetpath": "Assets/Arts/heros/Damien",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Damien",
+            "resourceasset": true
+        },
+        {
+            "name": "herosdarkpreist",
+            "assetpath": "Assets/Arts/heros/Darkpreist",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Darkpreist",
+            "resourceasset": true
+        },
+        {
+            "name": "herosdesertorcbrute",
+            "assetpath": "Assets/Arts/heros/DesertOrcBrute",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/DesertOrcBrute",
+            "resourceasset": true
+        },
+        {
+            "name": "herosdesertorccrusher",
+            "assetpath": "Assets/Arts/heros/DesertOrcCrusher",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/DesertOrcCrusher",
+            "resourceasset": true
+        },
+        {
+            "name": "herosdwarfwarrior",
+            "assetpath": "Assets/Arts/heros/DwarfWarrior",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/DwarfWarrior",
+            "resourceasset": true
+        },
+        {
+            "name": "herosearendil",
+            "assetpath": "Assets/Arts/heros/Earendil",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Earendil",
+            "resourceasset": true
+        },
+        {
+            "name": "heroselementalmage",
+            "assetpath": "Assets/Arts/heros/Elementalmage",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Elementalmage",
+            "resourceasset": true
+        },
+        {
+            "name": "heroselfarcher",
+            "assetpath": "Assets/Arts/heros/ElfArcher",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/ElfArcher",
+            "resourceasset": true
+        },
+        {
+            "name": "heroselfblademaster",
+            "assetpath": "Assets/Arts/heros/ElfBlademaster",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/ElfBlademaster",
+            "resourceasset": true
+        },
+        {
+            "name": "heroselfdruid",
+            "assetpath": "Assets/Arts/heros/ElfDruid",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/ElfDruid",
+            "resourceasset": true
+        },
+        {
+            "name": "heroselson",
+            "assetpath": "Assets/Arts/heros/elson",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/elson",
+            "resourceasset": true
+        },
+        {
+            "name": "herosempireexecutor",
+            "assetpath": "Assets/Arts/heros/EmpireExecutor",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/EmpireExecutor",
+            "resourceasset": true
+        },
+        {
+            "name": "herosesrena",
+            "assetpath": "Assets/Arts/heros/esrena",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/esrena",
+            "resourceasset": true
+        },
+        {
+            "name": "herosevelyn",
+            "assetpath": "Assets/Arts/heros/evelyn",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/evelyn",
+            "resourceasset": true
+        },
+        {
+            "name": "herosfafnar",
+            "assetpath": "Assets/Arts/heros/Fafnar",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Fafnar",
+            "resourceasset": true
+        },
+        {
+            "name": "herosfemaledwarf",
+            "assetpath": "Assets/Arts/heros/FemaleDwarf",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/FemaleDwarf",
+            "resourceasset": true
+        },
+        {
+            "name": "herosfireimp",
+            "assetpath": "Assets/Arts/heros/FireImp",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/FireImp",
+            "resourceasset": true
+        },
+        {
+            "name": "herosfreya",
+            "assetpath": "Assets/Arts/heros/Freya",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Freya",
+            "resourceasset": true
+        },
+        {
+            "name": "herosfuryofthestorm",
+            "assetpath": "Assets/Arts/heros/FuryoftheStorm",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/FuryoftheStorm",
+            "resourceasset": true
+        },
+        {
+            "name": "herosgangelo",
+            "assetpath": "Assets/Arts/heros/Gangelo",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Gangelo",
+            "resourceasset": true
+        },
+        {
+            "name": "herosgeneralaction",
+            "assetpath": "Assets/Arts/heros/GeneralAction",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/GeneralAction",
+            "resourceasset": true
+        },
+        {
+            "name": "herosgoblinarcher",
+            "assetpath": "Assets/Arts/heros/GoblinArcher",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/GoblinArcher",
+            "resourceasset": true
+        },
+        {
+            "name": "herosgoblinfighter",
+            "assetpath": "Assets/Arts/heros/GoblinFighter",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/GoblinFighter",
+            "resourceasset": true
+        },
+        {
+            "name": "herosgubegwalord",
+            "assetpath": "Assets/Arts/heros/GubegWalord",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/GubegWalord",
+            "resourceasset": true
+        },
+        {
+            "name": "heroshakrinstonefist",
+            "assetpath": "Assets/Arts/heros/HakrinStonefist",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/HakrinStonefist",
+            "resourceasset": true
+        },
+        {
+            "name": "herosharold",
+            "assetpath": "Assets/Arts/heros/Harold",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Harold",
+            "resourceasset": true
+        },
+        {
+            "name": "herosharryblackhorn",
+            "assetpath": "Assets/Arts/heros/harryblackhorn",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/harryblackhorn",
+            "resourceasset": true
+        },
+        {
+            "name": "heroshasselmolten",
+            "assetpath": "Assets/Arts/heros/HasselMolten",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/HasselMolten",
+            "resourceasset": true
+        },
+        {
+            "name": "heroshauntedman",
+            "assetpath": "Assets/Arts/heros/Hauntedman",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Hauntedman",
+            "resourceasset": true
+        },
+        {
+            "name": "heroshauntedwoman",
+            "assetpath": "Assets/Arts/heros/Hauntedwoman",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Hauntedwoman",
+            "resourceasset": true
+        },
+        {
+            "name": "heroshazell",
+            "assetpath": "Assets/Arts/heros/Hazell",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Hazell",
+            "resourceasset": true
+        },
+        {
+            "name": "heroshelmar",
+            "assetpath": "Assets/Arts/heros/Helmar",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Helmar",
+            "resourceasset": true
+        },
+        {
+            "name": "heroshorace",
+            "assetpath": "Assets/Arts/heros/Horace",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Horace",
+            "resourceasset": true
+        },
+        {
+            "name": "heroshughhumphrys",
+            "assetpath": "Assets/Arts/heros/HughHumphrys",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/HughHumphrys",
+            "resourceasset": true
+        },
+        {
+            "name": "herosian",
+            "assetpath": "Assets/Arts/heros/Ian",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Ian",
+            "resourceasset": true
+        },
+        {
+            "name": "herosinfecteddwarf",
+            "assetpath": "Assets/Arts/heros/InfectedDwarf",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/InfectedDwarf",
+            "resourceasset": true
+        },
+        {
+            "name": "herosjoth",
+            "assetpath": "Assets/Arts/heros/Joth",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Joth",
+            "resourceasset": true
+        },
+        {
+            "name": "heroskane",
+            "assetpath": "Assets/Arts/heros/Kane",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Kane",
+            "resourceasset": true
+        },
+        {
+            "name": "heroskanelight",
+            "assetpath": "Assets/Arts/heros/KaneLight",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/KaneLight",
+            "resourceasset": true
+        },
+        {
+            "name": "heroskangna",
+            "assetpath": "Assets/Arts/heros/kangna",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/kangna",
+            "resourceasset": true
+        },
+        {
+            "name": "heroskylebrien",
+            "assetpath": "Assets/Arts/heros/KyleBrien",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/KyleBrien",
+            "resourceasset": true
+        },
+        {
+            "name": "heroslizardmandestroyer",
+            "assetpath": "Assets/Arts/heros/LizardmanDestroyer",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/LizardmanDestroyer",
+            "resourceasset": true
+        },
+        {
+            "name": "heroslordrec",
+            "assetpath": "Assets/Arts/heros/Lordrec",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Lordrec",
+            "resourceasset": true
+        },
+        {
+            "name": "heroslydia",
+            "assetpath": "Assets/Arts/heros/lydia",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/lydia",
+            "resourceasset": true
+        },
+        {
+            "name": "herosmageapprentice",
+            "assetpath": "Assets/Arts/heros/MageApprentice",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/MageApprentice",
+            "resourceasset": true
+        },
+        {
+            "name": "herosmarian",
+            "assetpath": "Assets/Arts/heros/Marian",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Marian",
+            "resourceasset": true
+        },
+        {
+            "name": "herosmelizzamalem",
+            "assetpath": "Assets/Arts/heros/MelizzaMalem",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/MelizzaMalem",
+            "resourceasset": true
+        },
+        {
+            "name": "herosmytheasiasagesong",
+            "assetpath": "Assets/Arts/heros/MytheasiaSagesong",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/MytheasiaSagesong",
+            "resourceasset": true
+        },
+        {
+            "name": "herosnathaliachatham",
+            "assetpath": "Assets/Arts/heros/NathaliaChatham",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/NathaliaChatham",
+            "resourceasset": true
+        },
+        {
+            "name": "herosnicklausdark",
+            "assetpath": "Assets/Arts/heros/Nicklausdark",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Nicklausdark",
+            "resourceasset": true
+        },
+        {
+            "name": "herosniklaus",
+            "assetpath": "Assets/Arts/heros/Niklaus",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Niklaus",
+            "resourceasset": true
+        },
+        {
+            "name": "herosnoblevillain",
+            "assetpath": "Assets/Arts/heros/NobleVillain",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/NobleVillain",
+            "resourceasset": true
+        },
+        {
+            "name": "herosorakh",
+            "assetpath": "Assets/Arts/heros/Orakh",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Orakh",
+            "resourceasset": true
+        },
+        {
+            "name": "herospank",
+            "assetpath": "Assets/Arts/heros/pank",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/pank",
+            "resourceasset": true
+        },
+        {
+            "name": "herospeasantmob",
+            "assetpath": "Assets/Arts/heros/PeasantMob",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/PeasantMob",
+            "resourceasset": true
+        },
+        {
+            "name": "herospossessedelf",
+            "assetpath": "Assets/Arts/heros/PossessedElf",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/PossessedElf",
+            "resourceasset": true
+        },
+        {
+            "name": "herospossessedhuman",
+            "assetpath": "Assets/Arts/heros/PossessedHuman",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/PossessedHuman",
+            "resourceasset": true
+        },
+        {
+            "name": "herosqueenoftide",
+            "assetpath": "Assets/Arts/heros/QueenOfTide",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/QueenOfTide",
+            "resourceasset": true
+        },
+        {
+            "name": "herosradidefiler",
+            "assetpath": "Assets/Arts/heros/RadiDefiler",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/RadiDefiler",
+            "resourceasset": true
+        },
+        {
+            "name": "herosreaper",
+            "assetpath": "Assets/Arts/heros/Reaper",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Reaper",
+            "resourceasset": true
+        },
+        {
+            "name": "herosrickard",
+            "assetpath": "Assets/Arts/heros/rickard",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/rickard",
+            "resourceasset": true
+        },
+        {
+            "name": "herosrootstreant",
+            "assetpath": "Assets/Arts/heros/RootsTreant",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/RootsTreant",
+            "resourceasset": true
+        },
+        {
+            "name": "herosrottentreant",
+            "assetpath": "Assets/Arts/heros/RottenTreant",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/RottenTreant",
+            "resourceasset": true
+        },
+        {
+            "name": "herosroyalguard",
+            "assetpath": "Assets/Arts/heros/RoyalGuard",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/RoyalGuard",
+            "resourceasset": true
+        },
+        {
+            "name": "herossadgolem",
+            "assetpath": "Assets/Arts/heros/SadGolem",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/SadGolem",
+            "resourceasset": true
+        },
+        {
+            "name": "herossantis",
+            "assetpath": "Assets/Arts/heros/Santis",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Santis",
+            "resourceasset": true
+        },
+        {
+            "name": "herossentinel",
+            "assetpath": "Assets/Arts/heros/Sentinel",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Sentinel",
+            "resourceasset": true
+        },
+        {
+            "name": "herossentinelaxe",
+            "assetpath": "Assets/Arts/heros/Sentinelaxe",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Sentinelaxe",
+            "resourceasset": true
+        },
+        {
+            "name": "herossentinellancer",
+            "assetpath": "Assets/Arts/heros/Sentinellancer",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Sentinellancer",
+            "resourceasset": true
+        },
+        {
+            "name": "herossentinelsword",
+            "assetpath": "Assets/Arts/heros/Sentinelsword",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Sentinelsword",
+            "resourceasset": true
+        },
+        {
+            "name": "herosstalker",
+            "assetpath": "Assets/Arts/heros/stalker",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/stalker",
+            "resourceasset": true
+        },
+        {
+            "name": "herosstonegolem",
+            "assetpath": "Assets/Arts/heros/StoneGolem",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/StoneGolem",
+            "resourceasset": true
+        },
+        {
+            "name": "herostanaruk",
+            "assetpath": "Assets/Arts/heros/Tanaruk",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Tanaruk",
+            "resourceasset": true
+        },
+        {
+            "name": "herostiachatham",
+            "assetpath": "Assets/Arts/heros/TiaChatham",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/TiaChatham",
+            "resourceasset": true
+        },
+        {
+            "name": "herostomas",
+            "assetpath": "Assets/Arts/heros/Tomas",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Tomas",
+            "resourceasset": true
+        },
+        {
+            "name": "herosurzag",
+            "assetpath": "Assets/Arts/heros/Urzag",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Urzag",
+            "resourceasset": true
+        },
+        {
+            "name": "herosurzaglight",
+            "assetpath": "Assets/Arts/heros/Urzaglight",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Urzaglight",
+            "resourceasset": true
+        },
+        {
+            "name": "herosvaleria",
+            "assetpath": "Assets/Arts/heros/Valeria",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Valeria",
+            "resourceasset": true
+        },
+        {
+            "name": "herosvance",
+            "assetpath": "Assets/Arts/heros/Vance",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Vance",
+            "resourceasset": true
+        },
+        {
+            "name": "herosvindicator",
+            "assetpath": "Assets/Arts/heros/Vindicator",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Vindicator",
+            "resourceasset": true
+        },
+        {
+            "name": "herosvirgil",
+            "assetpath": "Assets/Arts/heros/Virgil",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Virgil",
+            "resourceasset": true
+        },
+        {
+            "name": "heroswaterelementminion",
+            "assetpath": "Assets/Arts/heros/WaterElementMinion",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/WaterElementMinion",
+            "resourceasset": true
+        },
+        {
+            "name": "heroswilliam",
+            "assetpath": "Assets/Arts/heros/William",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/William",
+            "resourceasset": true
+        },
+        {
+            "name": "herosyolanda",
+            "assetpath": "Assets/Arts/heros/Yolanda",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Yolanda",
+            "resourceasset": true
+        },
+        {
+            "name": "herosyolandalight",
+            "assetpath": "Assets/Arts/heros/Yolandalight",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Yolandalight",
+            "resourceasset": true
+        },
+        {
+            "name": "heroszachary",
+            "assetpath": "Assets/Arts/heros/Zachary",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Zachary",
+            "resourceasset": true
+        },
+        {
+            "name": "herosztlin",
+            "assetpath": "Assets/Arts/heros/ztlin",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/ztlin",
+            "resourceasset": true
+        },
+        {
+            "name": "heroszulquky",
+            "assetpath": "Assets/Arts/heros/Zulquky",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Zulquky",
+            "resourceasset": true
+        },
+        {
+            "name": "texturesmall",
+            "assetpath": "Assets/ResourcesAB/UI/Textures/Mall",
+            "extensions": ".png",
+            "loadpath": "UI/Textures/Mall"
+        },
+        {
+            "name": "scenesarena",
+            "assetpath": "Assets/Arts/Scenes/Arena",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Arena",
+            "resourceasset": true
+        },
+        {
+            "name": "sceneschuan",
+            "assetpath": "Assets/Arts/Scenes/chuan",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/chuan",
+            "resourceasset": true
+        },
+        {
+            "name": "sceneschurch",
+            "assetpath": "Assets/Arts/Scenes/Church",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Church",
+            "resourceasset": true
+        },
+        {
+            "name": "scenescoastpier",
+            "assetpath": "Assets/Arts/Scenes/CoastPier",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/CoastPier",
+            "resourceasset": true
+        },
+        {
+            "name": "scenescommon",
+            "assetpath": "Assets/Arts/Scenes/Common",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Common",
+            "resourceasset": true
+        },
+        {
+            "name": "scenescommonprefab",
+            "assetpath": "Assets/Arts/Scenes/CommonPrefab",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/CommonPrefab",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesdesert",
+            "assetpath": "Assets/Arts/Scenes/Desert",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Desert",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesdesertaltar",
+            "assetpath": "Assets/Arts/Scenes/DesertAltar",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/DesertAltar",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesdesertgobi",
+            "assetpath": "Assets/Arts/Scenes/DesertGobi",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/DesertGobi",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesdesert_a",
+            "assetpath": "Assets/Arts/Scenes/Desert_A",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Desert_A",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesdwarftown",
+            "assetpath": "Assets/Arts/Scenes/DwarfTown",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/DwarfTown",
+            "resourceasset": true
+        },
+        {
+            "name": "sceneselvenruin",
+            "assetpath": "Assets/Arts/Scenes/ElvenRuin",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/ElvenRuin",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesempiretown",
+            "assetpath": "Assets/Arts/Scenes/EmpireTown",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/EmpireTown",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesforest",
+            "assetpath": "Assets/Arts/Scenes/Forest",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Forest",
+            "resourceasset": true
+        },
+        {
+            "name": "sceneshomecity",
+            "assetpath": "Assets/Arts/Scenes/HomeCity",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/HomeCity",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesmap",
+            "assetpath": "Assets/Arts/Scenes/Map",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Map",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesmaterials",
+            "assetpath": "Assets/Arts/Scenes/Materials",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Materials",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesmodels",
+            "assetpath": "Assets/Arts/Scenes/Models",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Models",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesocean",
+            "assetpath": "Assets/Arts/Scenes/Ocean",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Ocean",
+            "resourceasset": true
+        },
+        {
+            "name": "scenespegasustown",
+            "assetpath": "Assets/Arts/Scenes/PegasusTown",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/PegasusTown",
+            "resourceasset": true
+        },
+        {
+            "name": "scenespegasustown_sea",
+            "assetpath": "Assets/Arts/Scenes/PegasusTown_Sea",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/PegasusTown_Sea",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesprefab",
+            "assetpath": "Assets/Arts/Scenes/Prefab",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Prefab",
+            "resourceasset": true
+        },
+        {
+            "name": "scenessnowmountain",
+            "assetpath": "Assets/Arts/Scenes/SnowMountain",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/SnowMountain",
+            "resourceasset": true
+        },
+        {
+            "name": "scenestazo_fx",
+            "assetpath": "Assets/Arts/Scenes/Tazo_fx",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Tazo_fx",
+            "resourceasset": true
+        },
+        {
+            "name": "scenestextures",
+            "assetpath": "Assets/Arts/Scenes/Textures",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Textures",
+            "resourceasset": true
+        },
+        {
+            "name": "scenestower",
+            "assetpath": "Assets/Arts/Scenes/Tower",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Tower",
+            "resourceasset": true
+        },
+        {
+            "name": "scenestownpier",
+            "assetpath": "Assets/Arts/Scenes/TownPier",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/TownPier",
+            "resourceasset": true
+        },
+        {
+            "name": "scenestreehouse",
+            "assetpath": "Assets/Arts/Scenes/TreeHouse",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/TreeHouse",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesui_showhero_002",
+            "assetpath": "Assets/Arts/Scenes/UI_ShowHero_002",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/UI_ShowHero_002",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesui_showhero_003",
+            "assetpath": "Assets/Arts/Scenes/UI_ShowHero_003",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/UI_ShowHero_003",
+            "resourceasset": true
+        },
+        {
+            "name": "sceneswindbossstage",
+            "assetpath": "Assets/Arts/Scenes/WindBossStage",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/WindBossStage",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesworldmap",
+            "assetpath": "Assets/Arts/Scenes/WorldMap",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/WorldMap",
+            "resourceasset": true
+        },
+        {
+            "name": "sceneszhujiemian",
+            "assetpath": "Assets/Arts/Scenes/zhujiemian",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/zhujiemian",
+            "resourceasset": true
+        },
+        {
+            "name": "sceneszhujiemian02",
+            "assetpath": "Assets/Arts/Scenes/zhujiemian02",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/zhujiemian02",
+            "resourceasset": true
+        },
+        {
+            "name": "uicommonmat",
+            "assetpath": "Assets/ResourcesAB/UI/CommonMat",
+            "extensions": ".*",
+            "loadpath": "UI/CommonMat"
+        },
+        {
+            "name": "uiguildrewardmat",
+            "assetpath": "Assets/ResourcesAB/UI/GuildRewardMat",
+            "extensions": ".*",
+            "loadpath": "UI/GuildRewardMat"
+        },
+        {
+            "name": "uipackdelivery",
+            "assetpath": "Assets/ResourcesAB/UI/PackDelivery",
+            "extensions": ".*",
+            "loadpath": "UI/PackDelivery"
+        },
+        {
+            "name": "uiroleelevatepromoteput",
+            "assetpath": "Assets/ResourcesAB/UI/RoleElevatePromotePut",
+            "extensions": ".*",
+            "loadpath": "UI/RoleElevatePromotePut"
+        },
+        {
+            "name": "uiroleendlessmat",
+            "assetpath": "Assets/ResourcesAB/UI/RoleEndlessMat",
+            "extensions": ".*",
+            "loadpath": "UI/RoleEndlessMat"
+        },
+        {
+            "name": "uirolemat",
+            "assetpath": "Assets/ResourcesAB/UI/RoleMat",
+            "extensions": ".*",
+            "loadpath": "UI/RoleMat"
+        },
+        {
+            "name": "uiroleunlockmat",
+            "assetpath": "Assets/ResourcesAB/UI/RoleUnLockMat",
+            "extensions": ".*",
+            "loadpath": "UI/RoleUnLockMat"
+        },
+        {
+            "name": "uiatlaspackdelivery",
+            "assetpath": "Assets/ResourcesAB/UI/UIAtlas/PackDelivery",
+            "extensions": ".png",
+            "loadpath": "UI/UIAtlas/PackDelivery",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesdeserta",
+            "assetpath": "Assets/Arts/Scenes/DesertA",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/DesertA",
+            "resourceasset": true
+        },
+        {
+            "name": "scenespegasustownsea",
+            "assetpath": "Assets/Arts/Scenes/PegasusTownSea",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/PegasusTownSea",
+            "resourceasset": true
+        },
+        {
+            "name": "scenestazofx",
+            "assetpath": "Assets/Arts/Scenes/Tazofx",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/Tazofx",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesuishowhero002",
+            "assetpath": "Assets/Arts/Scenes/UIShowHero002",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/UIShowHero002",
+            "resourceasset": true
+        },
+        {
+            "name": "scenesuishowhero003",
+            "assetpath": "Assets/Arts/Scenes/UIShowHero003",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/UIShowHero003",
+            "resourceasset": true
+        },
+        {
+            "name": "uichouka",
+            "assetpath": "Assets/ResourcesAB/UI/Chouka",
+            "extensions": ".*",
+            "loadpath": "UI/Chouka"
+        },
+        {
+            "name": "uirolebookendlessmat",
+            "assetpath": "Assets/ResourcesAB/UI/RoleBooKEndlessMat",
+            "extensions": ".*",
+            "loadpath": "UI/RoleBooKEndlessMat"
+        },
+        {
+            "name": "sceneselementaltarspire",
+            "assetpath": "Assets/Arts/Scenes/ElementAltarSpire",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/Scenes/ElementAltarSpire",
+            "resourceasset": true
+        },
+        {
+            "name": "heroscharles",
+            "assetpath": "Assets/Arts/heros/Charles",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Charles",
+            "resourceasset": true
+        },
+        {
+            "name": "herosjiubao",
+            "assetpath": "Assets/Arts/heros/JiuBao",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/JiuBao",
+            "resourceasset": true
+        },
+        {
+            "name": "herosmog",
+            "assetpath": "Assets/Arts/heros/Mog",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/Mog",
+            "resourceasset": true
+        },
+        {
+            "name": "heroshauntedelf",
+            "assetpath": "Assets/Arts/heros/HauntedElf",
+            "extensions": ".*",
+            "loadpath": "Assets/Arts/heros/HauntedElf",
+            "resourceasset": true
+        }
+    ]
+}
